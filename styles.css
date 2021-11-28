@@ -29,8 +29,245 @@ h1{
 h2{
     font-family: 'Abel', sans-serif;
     font-style: italic;
-    font-weight: 700;
-    font-size: 2rem;
+    font-weight: 400;
+    font-size: 1rem;
     line-height: 2.4rem;
     color: gray;
 }
+
+p.date{
+    font-style: oblique;
+    font-weight: 100;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: .9rem;
+}
+
+p.searchbartype{
+    font-size: .75rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.1rem;
+}
+
+p.search{
+    margin-top: 0px;
+}
+
+a:link{
+    text-decoration-line: none;
+    text-decoration: underline;
+    color:black;
+    
+    
+}
+
+a:visited, a:focus{
+    font-weight: bold;
+    text-decoration: underline;
+    color:lightgoldenrodyellow;
+
+}
+
+a:focus{
+    text-decoration-line: none;
+    outline: 1px solid;
+
+}
+
+a:hover{
+    font-weight: normal;
+    text-decoration: underline dotted;
+
+}
+
+
+a:active{
+    font-weight: bold;
+    color:olive;
+    text-decoration: underline;
+}
+
+p.copyright{
+    font-size: .8rem;
+    margin: 0rem;
+    /* margin-top: .8rem; */
+    max-width: 42rem;
+    margin-left: 1rem;
+    line-height: 1.1rem;
+    color: white;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+/* image styles */
+img{
+    display:block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header{
+    position: relative;
+    padding-top:1.6rem;
+    padding-bottom: .8rem;
+    /* height: 8rem; */
+
+}
+
+header img{
+    display:block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*logo*/
+
+a.logo:link, a.logo:visited{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    /* position:absolute;
+    top: 50%;
+    left: 50%;
+ */
+}
+
+a.logo:focus, a.logo:active{
+    outline: 1px solid black;
+    outline-offset: .5rem;
+
+}
+
+a.logo:hover{
+    width: 28%;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-delay: 0s;
+}
+
+
+figure{
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+figcaption{
+    margin-top: .8rem;
+    color:#595959;
+    font-style:italic;
+    font-size:small;
+    line-height: .8rem;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    display: inline-block; 
+}
+  
+main{
+    max-width: 37rem;
+    padding: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+a.container{
+    padding: 1.25rem;
+    font-family: source-sans-pro, Tahoma, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap:nowrap;
+}
+
+
+a.skip{
+    position: absolute;
+    padding-left: 5px;
+    transform: translateY(-100%);
+}
+
+a.skipbottom{
+    position:relative
+
+}
+
+footer{
+    padding-bottom: .8rem;
+    padding-top: .8rem;
+}
+
+header,footer{
+    background-color:darkseagreen;
+}
+
+/*styles for nav menu*/
+
+ol,ul { 
+    list-style-type: none;
+}
+
+#mainMenu {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 8.5em;
+    text-align: center;
+    font-family: "freight-display-pro", Georgia, serif;
+}
+
+#mainMenu li {
+    border-radius: 10px;
+    display:block;
+    margin:10px;
+    width:120px;
+    float: left;
+    text-align: center;
+    align-content: center;
+    border:1px solid #000;
+}
+#mainMenu ul ul {
+    display: none;
+    position: relative;
+    top: 100%;
+}
+
+#mainMenu a {
+    display:block;
+    padding:0px;
+    text-decoration:none;
+    text-align: center;
+    background-color:darkseagreen;
+    border-radius: 9px;
+    color:#fff;
+}
+
+#mainMenu a:hover {
+    background-color:#009;
+    color:#fff;
+}
+
+
+@media screen and (min-width: 40rem){
+    html{
+      font-size: 1.25rem;
+    }
+}
+  @media screen and (max-width: 50rem){
+      html{
+       font-size: larger;
+      }
+    }
