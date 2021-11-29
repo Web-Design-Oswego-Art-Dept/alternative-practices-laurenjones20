@@ -65,7 +65,7 @@ a:link{
 a:visited, a:focus{
     font-weight: bold;
     text-decoration: underline;
-    color:lightgoldenrodyellow;
+    color:darkgreen;
 
 }
 
@@ -126,6 +126,16 @@ header img{
 
 
 /*logo*/
+
+#logo{ 
+	position:absolute;
+	top: 0; 
+	left:0;
+    margin-top: 1.4rem;
+    margin-left: 1rem;
+    max-width: 8%;
+} 
+
 
 a.logo:link, a.logo:visited{
     display:block;
@@ -188,8 +198,7 @@ main{
 
 a.container{
     padding: 1.25rem;
-    font-family: source-sans-pro, Tahoma, Verdana, sans-serif;
-    display: flex;
+    font-family:'Abel', sans-serif;
     justify-content: center;
     flex-wrap:nowrap;
 }
@@ -226,7 +235,7 @@ ol,ul {
     padding-top: 0px;
     padding-left: 8.5em;
     text-align: center;
-    font-family: "freight-display-pro", Georgia, serif;
+    font-family: 'Abel', sans-serif;
 }
 
 #mainMenu li {
