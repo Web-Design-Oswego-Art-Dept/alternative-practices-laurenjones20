@@ -35,6 +35,36 @@ h2{
     color: gray;
 }
 
+h3{
+    font-family: 'Yellowtail', cursive;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+    text-align: center;  
+    color: darkgreen;  
+}
+
+h4{
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 1.6rem;
+    margin: .5em;
+    text-align: center;
+}
+
+h5{
+    font-family:'Abel',sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin: .5em;
+    text-align: center;
+    color: darkolivegreen;
+}
 p.date{
     font-style: oblique;
     font-weight: 100;
@@ -264,6 +294,9 @@ ol,ul {
     background-color:darkseagreen;
     border-radius: 9px;
     color:#fff;
+    justify-content: space-between;
+    align-content: baseline;
+    
 }
 
 #mainMenu a:hover {
